@@ -14,6 +14,8 @@ dl.notes > dd, code, #class-description > div.block {
 
 body > div.flex-box > div > main {
     max-width: 1080px;
+    min-width: 800px;
+    width: 90%;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 9px 0px;
     border-radius: 5px;
     margin: 0 auto;
@@ -203,5 +205,22 @@ div.table-tabs > button.table-tab {
     font-family: 'Roboto';
 }
 
+#ui-id-1 .ui-state-active {
+    background: #f5f8fa;
+    border-color: #f5f8fa;
+}
+
+#ui-id-1 {
+    border-radius: 6px;
+    overflow-x: hidden;
+    border: none;
+}
+
+/* Search results */
+ul.ui-autocomplete li {
+    background: white;
+    color: #434c5d;
+    font-family: 'Roboto'
+}
 
 
